@@ -1,0 +1,12 @@
+if(HAVE_CGAL)
+    add_executable(CGAL_test CGAL_test.cpp)
+    target_link_libraries(CGAL_test  ${CGAL_LIBRARIES})
+endif()
+
+add_executable(hello-world hello-world.cpp)
+add_executable(max1-test max1-test.cpp)
+add_executable(example-test example-test.cpp)
+add_executable(AscII-int AscII-int.cpp)
+add_executable(add-str add-str.cpp)
+add_executable(constant constant.cpp)
+add_executable(change-type change-type.cpp)
