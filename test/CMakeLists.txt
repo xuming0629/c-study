@@ -5,6 +5,4 @@ endif()
 
 add_executable(hello-world hello-world.cpp)
 add_executable(gradient-method gradient-method.cpp)
-add_executable(func-test func-test.cpp)
-add_executable(qp-sorted qp-sorted.cpp)
-
+add_executable(zhizhen-func zhizhen-func.cpp)
